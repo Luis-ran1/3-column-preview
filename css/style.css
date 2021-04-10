@@ -1,0 +1,163 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+}
+html
+{
+    font-size: 15px;
+    font-family:'Big Shoulders Display', 'Lexend Deca', cursive, sans-serif;
+}
+body
+{
+    background-color: hsl(0, 0%, 95%);
+}
+main
+{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-width: 320px;
+    max-width: 900px;
+    height: auto;
+}
+.card-content
+{
+    padding: 5px;
+    margin: 30px;
+}
+.main-container
+{
+    width: 100%;
+    min-height: 320px;
+    max-width: 900px;
+    height: auto;
+}
+.main--card__container
+{
+    position: relative;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    padding: 7px;
+    margin-top: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color:hsl(31, 77%, 52%);
+}
+.main--card__container .card--icon
+{
+    display: inline-block;
+    width: 64px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-image: url('../images/icon-sedans.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main--card__container .card--tittle, .card--tittle-SUVs, .card--tittle-Luxury
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: hsl(0, 0%, 95%);
+}
+.card--body, .card--body-SUVs, .card--body-Luxury
+{
+    text-align: left;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-family:'Lexend Deca',sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.card--button
+{
+    width: 144px;
+    height: auto;
+    padding: 10px;
+    border: none;
+    border-radius: 60px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:  hsl(0, 0%, 95%);
+    color:hsl(31, 77%, 52%);
+}
+.main--card__container-SUVs
+{
+    position: relative;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    padding: 7px;
+    background-color: hsl(184, 100%, 22%);
+}
+.card--icon-SUVs
+{
+    display: inline-block;
+    width: 64px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-image: url('../images/icon-suvs.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card--button-SUVs
+{
+    width: 144px;
+    height: auto;
+    padding: 10px;
+    border: none;
+    border-radius: 60px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:  hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+}
+.main--card__container-Luxury
+{
+    position: relative;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 7px;
+    background-color: hsl(179, 100%, 13%);
+}
+.card--icon-Luxury
+{
+    display: inline-block;
+    width: 64px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-image: url('../images/icon-luxury.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.card--button-Luxury
+{
+    width: 144px;
+    height: auto;
+    padding: 10px;
+    border: none;
+    border-radius: 60px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:  hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+}
+/* attribution */
+.attribution { font-size: 15px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
